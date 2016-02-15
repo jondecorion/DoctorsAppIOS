@@ -15,8 +15,8 @@ class SidebarMenuViewController: UIViewController,  UITableViewDataSource, UITab
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var email: UILabel!
     
-    let arrTittiles = ["Profile", "Contacts", "Settings"]
-    let arrIcons = ["Administrator Filled-50.png", "Treatment50.png", "Settings-50.png"]
+    let arrTittiles = ["Profile", "Contacts", "Settings","Appointments","My Actitvities","Badges","Notifications","Logout"]
+    let arrIcons = ["Administrator Filled-50.png", "Contacts-48.png", "Settings-50.png","Calendar-100.png","Treatment50.png","Diploma 1-48.png","Dribbble-100.png","Exit-100.png"]
     
     @IBOutlet weak var tableview: UITableView!
     
@@ -39,7 +39,7 @@ class SidebarMenuViewController: UIViewController,  UITableViewDataSource, UITab
         
         //insert bg at nav
         
-        let imageView = UIImageView(frame: CGRectMake(0, 0, 600, 200));
+        let imageView = UIImageView(frame: CGRectMake(0, 0, 600, 180));
         let image = UIImage(named: "backgroundNB.png");
         imageView.image = image;
         self.view.insertSubview(imageView, atIndex: 0)
