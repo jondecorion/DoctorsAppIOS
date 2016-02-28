@@ -10,7 +10,7 @@ import UIKit
 
 import Alamofire
 
-class MyWallViewController: UIViewController {
+class MyWallViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
     
     
     @IBOutlet weak var menu: UIBarButtonItem!
@@ -18,6 +18,10 @@ class MyWallViewController: UIViewController {
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var position: UILabel!
     
+    
+    @IBOutlet weak var table: UITableView!
+  
+    let cActivities: NSMutableArray = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,9 +64,59 @@ class MyWallViewController: UIViewController {
         name.text = "Dr. JDecorion, DScPT, DPM"
         position.text = "Senior Consultant Surgeon"
         
-   
         
+        //to do need to bind with the webservice data
+        var  a = CActivities()
+        a.id = 1
+        a.name = "Dr. JDecorion, DScPT, DPM"
+        a.time = "07:05 PM"
+        a.profile = "profile.png"
+        a.image = "cake-1.png"
+        a.title = "Cake Time"
+        a.comment = "I love it"
+        
+        cActivities.addObject(a)
+        a = CActivities()
+        a.id = 2
+        a.name = "Dr. Pedro Pendoco, DScPT, DPM"
+        a.time = "07:05 PM"
+        a.profile = "profile.png"
+        a.image = "cake-1.png"
+        a.title = "Cake Time"
+        a.comment = "I love it"
+        cActivities.addObject(a)
     }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return cActivities.count
+    }
+    
+    
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        // let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
+        
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! MyWallTableViewCell
+        
+        var  a = CActivities()
+        
+        let row = indexPath.row
+        a = cActivities[row] as! CActivities
+        
+        cell.profile!.image = UIImage(named: a.profile!)
+        cell.img!.image = UIImage(named: a.image!)
+        
+        cell.imageView!.frame = CGRectOffset(cell.frame, 10, 10);
+        
+        cell.name.text = a.name!
+        cell.position.text = a.time!
+        cell.title.text = a.title!
+        cell.comment.text = a.comment!
+                
+        return cell
+    }
+    
+    
     
     func menuPressed() {
         

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C506A2CD1C82B8650056E8E9 /* RegistrationEndTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C506A2CB1C82B8650056E8E9 /* RegistrationEndTableViewCell.swift */; };
+		C506A2CE1C82B8650056E8E9 /* RegistrationEndTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C506A2CC1C82B8650056E8E9 /* RegistrationEndTableViewCell.xib */; };
+		C50A78791C81878B00A85D67 /* RegistrationEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A78781C81878B00A85D67 /* RegistrationEndViewController.swift */; };
+		C50A78811C819AD800A85D67 /* checkbox-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = C50A78801C819AD800A85D67 /* checkbox-checked.png */; };
+		C50A78831C819ADD00A85D67 /* checkbox-unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = C50A78821C819ADD00A85D67 /* checkbox-unchecked.png */; };
+		C50A78851C819C1000A85D67 /* CDegree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A78841C819C1000A85D67 /* CDegree.swift */; };
 		C513DAD21C6F71F9001F970C /* login_button.png in Resources */ = {isa = PBXBuildFile; fileRef = C513DAD11C6F71F9001F970C /* login_button.png */; };
 		C513DAD61C6F7E60001F970C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C513DAD51C6F7E5F001F970C /* SWRevealViewController.m */; };
 		C513DAD81C6F841A001F970C /* login_input_area.png in Resources */ = {isa = PBXBuildFile; fileRef = C513DAD71C6F841A001F970C /* login_input_area.png */; };
@@ -69,6 +75,11 @@
 		C513DB4E1C704144001F970C /* Settings-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C513DB1D1C704144001F970C /* Settings-50.png */; };
 		C513DB4F1C704144001F970C /* Synchronize-48.png in Resources */ = {isa = PBXBuildFile; fileRef = C513DB1E1C704144001F970C /* Synchronize-48.png */; };
 		C513DB501C704144001F970C /* Treatment50.png in Resources */ = {isa = PBXBuildFile; fileRef = C513DB1F1C704144001F970C /* Treatment50.png */; };
+		C53EF9181C81686500CFA93B /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53EF9171C81686500CFA93B /* RegistrationViewController.swift */; };
+		C53EF9201C8178F400CFA93B /* bg101.png in Resources */ = {isa = PBXBuildFile; fileRef = C53EF91F1C8178F400CFA93B /* bg101.png */; };
+		C53EF9221C817A3800CFA93B /* bg102.png in Resources */ = {isa = PBXBuildFile; fileRef = C53EF9211C817A3800CFA93B /* bg102.png */; };
+		C55E95611C74D8AA0000770D /* MyWallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55E95601C74D8A90000770D /* MyWallTableViewCell.swift */; };
+		C55E95631C74DCF60000770D /* cake-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C55E95621C74DCF60000770D /* cake-1.png */; };
 		C56A3F7C1C6CB517002897FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A3F7B1C6CB517002897FA /* AppDelegate.swift */; };
 		C56A3F7E1C6CB517002897FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A3F7D1C6CB517002897FA /* ViewController.swift */; };
 		C56A3F811C6CB517002897FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56A3F7F1C6CB517002897FA /* Main.storyboard */; };
@@ -78,12 +89,14 @@
 		C56A3F941C6CB517002897FA /* DoctorsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A3F931C6CB517002897FA /* DoctorsAppTests.swift */; };
 		C56A3F9F1C6CB518002897FA /* DoctorsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A3F9E1C6CB518002897FA /* DoctorsAppUITests.swift */; };
 		C56A3FB21C6D0782002897FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A3FB11C6D0782002897FA /* LoginViewController.swift */; };
+		C572AF511C7EAEDB00792645 /* DoctorsApp.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C572AF501C7EAEDB00792645 /* DoctorsApp.sqlite */; };
 		C576BFEB1C71D0CA000F2828 /* doctors.png in Resources */ = {isa = PBXBuildFile; fileRef = C576BFEA1C71D0CA000F2828 /* doctors.png */; };
 		C576BFED1C71D35A000F2828 /* myWallBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C576BFEC1C71D35A000F2828 /* myWallBG.png */; };
 		C576BFEF1C71E3D6000F2828 /* CUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C576BFEE1C71E3D6000F2828 /* CUser.swift */; };
 		C576BFF31C71E4C3000F2828 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C576BFF21C71E4C3000F2828 /* MBProgressHUD.m */; };
 		C576C0241C71E8A8000F2828 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C576C0171C71E844000F2828 /* Alamofire.framework */; };
 		C576C0251C71E8A8000F2828 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C576C0171C71E844000F2828 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C58D50C91C735FA40085BDF0 /* CActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58D50C81C735FA40085BDF0 /* CActivities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +187,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C506A2CB1C82B8650056E8E9 /* RegistrationEndTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationEndTableViewCell.swift; sourceTree = "<group>"; };
+		C506A2CC1C82B8650056E8E9 /* RegistrationEndTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationEndTableViewCell.xib; sourceTree = "<group>"; };
+		C50A78781C81878B00A85D67 /* RegistrationEndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationEndViewController.swift; sourceTree = "<group>"; };
+		C50A78801C819AD800A85D67 /* checkbox-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-checked.png"; sourceTree = "<group>"; };
+		C50A78821C819ADD00A85D67 /* checkbox-unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-unchecked.png"; sourceTree = "<group>"; };
+		C50A78841C819C1000A85D67 /* CDegree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDegree.swift; sourceTree = "<group>"; };
 		C513DAD11C6F71F9001F970C /* login_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_button.png; sourceTree = "<group>"; };
 		C513DAD31C6F7E5C001F970C /* DoctorsApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoctorsApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		C513DAD41C6F7E5F001F970C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -238,6 +257,11 @@
 		C513DB1D1C704144001F970C /* Settings-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-50.png"; sourceTree = "<group>"; };
 		C513DB1E1C704144001F970C /* Synchronize-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Synchronize-48.png"; sourceTree = "<group>"; };
 		C513DB1F1C704144001F970C /* Treatment50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Treatment50.png; sourceTree = "<group>"; };
+		C53EF9171C81686500CFA93B /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		C53EF91F1C8178F400CFA93B /* bg101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg101.png; sourceTree = "<group>"; };
+		C53EF9211C817A3800CFA93B /* bg102.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg102.png; sourceTree = "<group>"; };
+		C55E95601C74D8A90000770D /* MyWallTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWallTableViewCell.swift; sourceTree = "<group>"; };
+		C55E95621C74DCF60000770D /* cake-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cake-1.png"; sourceTree = "<group>"; };
 		C56A3F781C6CB517002897FA /* DoctorsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56A3F7B1C6CB517002897FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C56A3F7D1C6CB517002897FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -253,12 +277,14 @@
 		C56A3F9E1C6CB518002897FA /* DoctorsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsAppUITests.swift; sourceTree = "<group>"; };
 		C56A3FA01C6CB518002897FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C56A3FB11C6D0782002897FA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C572AF501C7EAEDB00792645 /* DoctorsApp.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = DoctorsApp.sqlite; sourceTree = "<group>"; };
 		C576BFEA1C71D0CA000F2828 /* doctors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doctors.png; sourceTree = "<group>"; };
 		C576BFEC1C71D35A000F2828 /* myWallBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myWallBG.png; sourceTree = "<group>"; };
 		C576BFEE1C71E3D6000F2828 /* CUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUser.swift; sourceTree = "<group>"; };
 		C576BFF11C71E4C3000F2828 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		C576BFF21C71E4C3000F2828 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		C576C00C1C71E844000F2828 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../../../Ref/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		C58D50C81C735FA40085BDF0 /* CActivities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CActivities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,6 +321,16 @@
 			name = Alamofire;
 			sourceTree = "<group>";
 		};
+		C55E95591C74D8760000770D /* Custom Class */ = {
+			isa = PBXGroup;
+			children = (
+				C55E95601C74D8A90000770D /* MyWallTableViewCell.swift */,
+				C506A2CB1C82B8650056E8E9 /* RegistrationEndTableViewCell.swift */,
+				C506A2CC1C82B8650056E8E9 /* RegistrationEndTableViewCell.xib */,
+			);
+			name = "Custom Class";
+			sourceTree = "<group>";
+		};
 		C56A3F6F1C6CB517002897FA = {
 			isa = PBXGroup;
 			children = (
@@ -318,11 +354,12 @@
 		C56A3F7A1C6CB517002897FA /* DoctorsApp */ = {
 			isa = PBXGroup;
 			children = (
+				C55E95591C74D8760000770D /* Custom Class */,
+				C56A3FAC1C6D063D002897FA /* Models */,
 				C56A3FB01C6D071E002897FA /* Controllers */,
 				C56A3FAF1C6D06F7002897FA /* Supporting Files */,
 				C56A3FAE1C6D0663002897FA /* Common */,
 				C56A3FAD1C6D0647002897FA /* Libraries */,
-				C56A3FAC1C6D063D002897FA /* Models */,
 				C56A3F7B1C6CB517002897FA /* AppDelegate.swift */,
 				C56A3F7D1C6CB517002897FA /* ViewController.swift */,
 				C56A3F7F1C6CB517002897FA /* Main.storyboard */,
@@ -356,6 +393,8 @@
 			isa = PBXGroup;
 			children = (
 				C576BFEE1C71E3D6000F2828 /* CUser.swift */,
+				C58D50C81C735FA40085BDF0 /* CActivities.swift */,
+				C50A78841C819C1000A85D67 /* CDegree.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -393,6 +432,8 @@
 				C56A3FB11C6D0782002897FA /* LoginViewController.swift */,
 				C513DAE31C6F8FA8001F970C /* MyWallViewController.swift */,
 				C513DAE71C6F97FE001F970C /* SidebarMenuViewController.swift */,
+				C53EF9171C81686500CFA93B /* RegistrationViewController.swift */,
+				C50A78781C81878B00A85D67 /* RegistrationEndViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -420,7 +461,12 @@
 			isa = PBXGroup;
 			children = (
 				C576BFEA1C71D0CA000F2828 /* doctors.png */,
+				C50A78801C819AD800A85D67 /* checkbox-checked.png */,
+				C50A78821C819ADD00A85D67 /* checkbox-unchecked.png */,
+				C55E95621C74DCF60000770D /* cake-1.png */,
+				C53EF91F1C8178F400CFA93B /* bg101.png */,
 				C576BFEC1C71D35A000F2828 /* myWallBG.png */,
+				C53EF9211C817A3800CFA93B /* bg102.png */,
 				C513DAED1C703A75001F970C /* profile.png */,
 				C513DAE91C6FA059001F970C /* backgroundNB.png */,
 				C513DAE51C6F9046001F970C /* menu.png */,
@@ -494,6 +540,7 @@
 		C576BFF01C71E3E7000F2828 /* SQL */ = {
 			isa = PBXGroup;
 			children = (
+				C572AF501C7EAEDB00792645 /* DoctorsApp.sqlite */,
 			);
 			name = SQL;
 			sourceTree = "<group>";
@@ -676,6 +723,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53EF9221C817A3800CFA93B /* bg102.png in Resources */,
 				C513DB411C704144001F970C /* Home-48.png in Resources */,
 				C513DB4B1C704144001F970C /* Redo-100.png in Resources */,
 				C513DB381C704144001F970C /* Edit-48.png in Resources */,
@@ -684,6 +732,7 @@
 				C513DB331C704144001F970C /* Clock-100.png in Resources */,
 				C513DB481C704144001F970C /* Phone-52.png in Resources */,
 				C513DB2D1C704144001F970C /* Businessman-48.png in Resources */,
+				C50A78831C819ADD00A85D67 /* checkbox-unchecked.png in Resources */,
 				C513DADE1C6F8781001F970C /* Administrator Filled-50.png in Resources */,
 				C513DB4F1C704144001F970C /* Synchronize-48.png in Resources */,
 				C513DB2E1C704144001F970C /* Businesswoman-48.png in Resources */,
@@ -698,6 +747,7 @@
 				C513DB3C1C704144001F970C /* Fax-52.png in Resources */,
 				C513DB421C704144001F970C /* Home-52.png in Resources */,
 				C56A3F891C6CB517002897FA /* LaunchScreen.storyboard in Resources */,
+				C572AF511C7EAEDB00792645 /* DoctorsApp.sqlite in Resources */,
 				C513DAD81C6F841A001F970C /* login_input_area.png in Resources */,
 				C513DB281C704144001F970C /* Bebo-48.png in Resources */,
 				C513DB451C704144001F970C /* Office Phone Filled-50.png in Resources */,
@@ -711,6 +761,7 @@
 				C513DB3F1C704144001F970C /* Google Mobile-48.png in Resources */,
 				C56A3F811C6CB517002897FA /* Main.storyboard in Resources */,
 				C513DB431C704144001F970C /* Meeting-50.png in Resources */,
+				C506A2CE1C82B8650056E8E9 /* RegistrationEndTableViewCell.xib in Resources */,
 				C513DB4E1C704144001F970C /* Settings-50.png in Resources */,
 				C576BFEB1C71D0CA000F2828 /* doctors.png in Resources */,
 				C513DB301C704144001F970C /* Checked Checkbox 2-100.png in Resources */,
@@ -729,9 +780,11 @@
 				C513DB501C704144001F970C /* Treatment50.png in Resources */,
 				C513DB4C1C704144001F970C /* Search-100 (1).png in Resources */,
 				C513DB2A1C704144001F970C /* Box-48.png in Resources */,
+				C53EF9201C8178F400CFA93B /* bg101.png in Resources */,
 				C513DB211C704144001F970C /* Administrator-52.png in Resources */,
 				C513DB221C704144001F970C /* Alarm Clock-100.png in Resources */,
 				C513DAE61C6F9046001F970C /* menu.png in Resources */,
+				C50A78811C819AD800A85D67 /* checkbox-checked.png in Resources */,
 				C513DB441C704144001F970C /* Mobile Home-48.png in Resources */,
 				C513DB2B1C704144001F970C /* Briefcase-100.png in Resources */,
 				C513DB361C704144001F970C /* Diploma 1-48.png in Resources */,
@@ -740,6 +793,7 @@
 				C513DB2C1C704144001F970C /* Bullish-48.png in Resources */,
 				C576BFED1C71D35A000F2828 /* myWallBG.png in Resources */,
 				C513DAEE1C703A75001F970C /* profile.png in Resources */,
+				C55E95631C74DCF60000770D /* cake-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -767,10 +821,16 @@
 				C576BFEF1C71E3D6000F2828 /* CUser.swift in Sources */,
 				C513DAE81C6F97FE001F970C /* SidebarMenuViewController.swift in Sources */,
 				C513DAE41C6F8FA8001F970C /* MyWallViewController.swift in Sources */,
+				C50A78851C819C1000A85D67 /* CDegree.swift in Sources */,
+				C55E95611C74D8AA0000770D /* MyWallTableViewCell.swift in Sources */,
 				C56A3FB21C6D0782002897FA /* LoginViewController.swift in Sources */,
 				C576BFF31C71E4C3000F2828 /* MBProgressHUD.m in Sources */,
+				C53EF9181C81686500CFA93B /* RegistrationViewController.swift in Sources */,
 				C56A3F7E1C6CB517002897FA /* ViewController.swift in Sources */,
+				C58D50C91C735FA40085BDF0 /* CActivities.swift in Sources */,
+				C50A78791C81878B00A85D67 /* RegistrationEndViewController.swift in Sources */,
 				C513DAD61C6F7E60001F970C /* SWRevealViewController.m in Sources */,
+				C506A2CD1C82B8650056E8E9 /* RegistrationEndTableViewCell.swift in Sources */,
 				C56A3F841C6CB517002897FA /* DoctorsApp.xcdatamodeld in Sources */,
 				C56A3F7C1C6CB517002897FA /* AppDelegate.swift in Sources */,
 			);

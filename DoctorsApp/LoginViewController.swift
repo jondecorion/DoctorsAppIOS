@@ -78,7 +78,10 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
     }
     
     
+    
+    
     @IBAction func registerClick(sender: AnyObject) {
+        performSegueWithIdentifier("registrationSegue", sender: self)
     }
    
     func textFieldShouldReturn(textField: UITextField) -> Bool {
@@ -94,12 +97,29 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-        if segue.identifier == "loginDashboardSegue" {
-            if let destinationVC : MyWallViewController = segue.destinationViewController as? MyWallViewController{
+       
+        
+        if let segueID = segue.identifier {
+            switch segueID {
+            case "loginDashboardSegue":
+                /*
+                if let destinationVC : MyWallViewController = segue.destinationViewController as? MyWallViewController{
                 //destinationVC.numberToDisplay = counter
+                }
+                */
+                
+                break
+            case "registrationSegue":
+                //var svc = segue.destinationViewController as! RegistrationViewController;
+                break
+                
+            default:
+                break
             }
             
         }
+        
+        
         
     }
 
